@@ -1,0 +1,231 @@
+.certificate-wrapper{
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    background-image: url(./images/bg2.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.certificate-wrapper .certificate-background{
+    left:0mm;
+    top: auto;
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.certificate-wrapper .certificate-background .rect1{
+    position:absolute;
+    width:72mm;
+    height:170mm;
+    background: rgb(32, 32, 32);
+    margin-right:22.2mm;
+}
+.certificate-wrapper .certificate-background .rect2{
+    
+    position: absolute;
+    width:210mm;
+    height:25mm;
+    top: 20mm;
+    left: 90mm;
+    float: right;
+    background:#ffe100;
+    box-shadow: 2mm 2mm 2mm rgba(128, 128, 128, 0.353);
+
+}
+.certificate-wrapper .certificate-background .rect3{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:220mm;
+    height:10mm;
+    float: right;
+    margin-top: 12mm;
+}
+.certificate-wrapper .certificate-background .rect4{
+    background:#ffe100;
+    position: absolute;
+    width:72mm;
+    height:40mm;
+    float: left;
+    top: 170mm;
+}
+.certificate-wrapper .certificate-background .rect5{
+    position: absolute;
+    width:150mm;
+    height:10mm;
+    float: right;
+    margin: 100mm 20mm 50mm 93mm ;
+    display: block;
+    background:#ffe100;
+    box-shadow: 2mm 2mm 2mm rgba(128, 128, 128, 0.353);
+
+}
+.certificate-wrapper .certificate-background .rect6{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:180mm;
+    height:1mm;
+    float: right;
+    top: 100mm;
+    left: 93mm ;
+}
+.certificate-wrapper .certificate-background .rect7{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:65mm;
+    height:13mm;
+    float: right;
+    top: 180mm;
+    right: 0mm;
+}
+
+.certificate-wrapper .certificate-content {
+    top: 10mm;
+    right: 10mm;
+    bottom: 10mm;
+    left: 10mm;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .certificate-logo {
+    position: absolute;
+    top: 0mm;
+    right: 0mm;
+    bottom: 0mm;
+    left: 0mm;  
+
+}
+.certificate-wrapper .certificate-content .title{
+    position: absolute;   
+    left: 90mm;
+    float: right; 
+    font-size: 20.5mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2.5mm;
+}
+.certificate-wrapper .certificate-content .sub-title{
+    position: absolute;
+    top: 24mm;
+    left: 90mm;
+    float: right; 
+    font-size: 7mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2.5mm;
+    color: white;
+
+}
+.certificate-wrapper .certificate-content .initial-content{
+    position: absolute;
+    top: 58mm;
+    left: 90mm;
+    float: right; 
+    font-size: 18pt;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5pt;
+}
+.certificate-wrapper .certificate-content .candidate-name{
+    position: absolute;
+    top: 65mm;
+    left: 90mm;
+    float: right; 
+    font-size: 60pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+}
+.certificate-wrapper .certificate-content .sub-initial-content{
+    position: absolute;
+    top: 92mm;
+    left: 90mm;
+    float: right; 
+    font-size: 20pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}
+.certificate-wrapper .certificate-content .main-content{
+    position: absolute;
+    top: 115mm;
+    left: 90mm;
+    float: right; 
+    font-size: 10pt;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 1pt;
+    line-height: 5mm;
+    color: rgb(85, 85, 85);
+}
+.certificate-wrapper .certificate-content .sign-president-img{
+    top: 155mm;
+	left: 95mm;
+	width : 40mm;
+	height : 20mm;
+	position : absolute;
+}
+
+.certificate-wrapper .certificate-content .sign-director-img
+{
+	top : 155mm;
+	left: 160mm;
+	width : 40mm;
+	height : 20mm;
+    position : absolute;
+}
+.certificate-wrapper .certificate-content .sign-president {
+    left: 90mm;
+    top: 180mm;
+    font-size: 15pt;
+    border-top: 1pt solid;
+    line-height : 8mm;
+    position: absolute;
+    font-weight: bold;
+}
+.certificate-wrapper .certificate-content .sign-director {
+    left: 155mm;
+    top: 180mm;
+    font-size: 15pt;
+    border-top: 1pt solid;
+    line-height : 8mm;
+    position: absolute;
+    font-weight: bold;
+}
+.certificate-wrapper .certificate-content .org-logo{
+    right: 0mm;
+    top: 170.5mm;
+    width:40mm;
+    height:7mm;
+	position : absolute;
+}
+.certificate-wrapper .certificate-content .org-logo img {
+    right: 0mm;
+    max-height: 12mm;  
+}
+
+.certificate-wrapper .certificate-content .side-content{
+    position: absolute;
+    top: 90mm;
+    left: 0mm; 
+    font-size: 10pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+    color: grey;
+    display: block;
+    letter-spacing: 1pt;
+    line-height: 5mm;
+}
+.certificate-wrapper  .date-fig{
+    position: absolute;
+    top: 185mm;
+    left: 20mm; 
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:1mm ;
+    border-bottom: 1.5pt solid black; 
+  
+}
+.certificate-wrapper .date-word{
+    position: absolute;
+    top: 192mm;
+    left: 25mm; 
+    font-size: 12pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1pt;
+    font-weight: bold;
+}
